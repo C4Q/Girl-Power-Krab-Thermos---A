@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Alamofire.request("http://taco-randomizer.herokuapp.com/random?full-taco=true").responseJSON { dataResponse in
+            print("Request: \(dataResponse.request)")
+            print("Response: \(dataResponse.response)")
+            print("Data: \(dataResponse.data)")
+            print("Result: \(dataResponse.result)")
+            
+            if let json = dataResponse.result.value {
+                print("Json: \(json)") // as the documentation points out, the json response handler makes use of JSONSerialization to parse out objects. meaning that this json is of type Any
+            }
+        }
+        
+        Alamofire.request("http://taco-randomizer.herokuapp.com/random?full-taco=true").validate().responseJSON { dataResponse in
+            print("Request: \(dataResponse.request)")
+            print("Response: \(dataResponse.response)")
+            print("Data: \(dataResponse.data)")
+            print("Result: \(dataResponse.result)")
+            
+            if let json = dataResponse.result.value {
+                print("Json: \(json)") // as the documentation points out, the json response handler makes use of JSONSerialization to parse out objects. meaning that this json is of type Any
+            }
+        }
+
+
         return true
     }
 
