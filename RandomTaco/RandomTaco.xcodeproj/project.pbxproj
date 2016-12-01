@@ -12,6 +12,7 @@
 		3A6EA46C1DF0CA5300F07F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */; };
 		3A6EA46E1DF0CA5300F07F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46D1DF0CA5300F07F2A /* Assets.xcassets */; };
 		3A6EA4711DF0CA5300F07F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46F1DF0CA5300F07F2A /* LaunchScreen.storyboard */; };
+		9CEE4B6F1DF0CE5C00E51DC0 /* Tacos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE4B6E1DF0CE5C00E51DC0 /* Tacos.swift */; };
 		B96672C6A6A38D985F417B66 /* Pods_RandomTaco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F889BA6FAC6F64DC66EF4 /* Pods_RandomTaco.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		3A6EA4721DF0CA5300F07F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740F889BA6FAC6F64DC66EF4 /* Pods_RandomTaco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomTaco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EA91FD127D9CE9BB691893 /* Pods-RandomTaco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomTaco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco.debug.xcconfig"; sourceTree = "<group>"; };
+		9CEE4B6E1DF0CE5C00E51DC0 /* Tacos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tacos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */,
+				9CEE4B6E1DF0CE5C00E51DC0 /* Tacos.swift */,
 				3A6EA4681DF0CA5300F07F2A /* ViewController.swift */,
 				3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */,
 				3A6EA46D1DF0CA5300F07F2A /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			files = (
 				3A6EA4691DF0CA5300F07F2A /* ViewController.swift in Sources */,
 				3A6EA4671DF0CA5300F07F2A /* AppDelegate.swift in Sources */,
+				9CEE4B6F1DF0CE5C00E51DC0 /* Tacos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +380,7 @@
 				3A6EA4771DF0CA5300F07F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
