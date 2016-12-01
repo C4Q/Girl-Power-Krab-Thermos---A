@@ -7,103 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C81958C1DF0B3A00006FA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81958B1DF0B3A00006FA92 /* AppDelegate.swift */; };
-		9C81958E1DF0B3A00006FA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C81958D1DF0B3A00006FA92 /* ViewController.swift */; };
-		9C8195911DF0B3A00006FA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C81958F1DF0B3A00006FA92 /* Main.storyboard */; };
-		9C8195941DF0B3A00006FA92 /* RandomTaco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C8195921DF0B3A00006FA92 /* RandomTaco.xcdatamodeld */; };
-		9C8195961DF0B3A00006FA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8195951DF0B3A00006FA92 /* Assets.xcassets */; };
-		9C8195991DF0B3A00006FA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8195971DF0B3A00006FA92 /* LaunchScreen.storyboard */; };
-		F2230A01E4C88FE4DFEF5021 /* Pods_RandomTaco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF569831C78ECA84A76D2E0E /* Pods_RandomTaco.framework */; };
+		3A6EA4671DF0CA5300F07F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */; };
+		3A6EA4691DF0CA5300F07F2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EA4681DF0CA5300F07F2A /* ViewController.swift */; };
+		3A6EA46C1DF0CA5300F07F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */; };
+		3A6EA46E1DF0CA5300F07F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46D1DF0CA5300F07F2A /* Assets.xcassets */; };
+		3A6EA4711DF0CA5300F07F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46F1DF0CA5300F07F2A /* LaunchScreen.storyboard */; };
+		B96672C6A6A38D985F417B66 /* Pods_RandomTaco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F889BA6FAC6F64DC66EF4 /* Pods_RandomTaco.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87D10F2BD7831FF1513BFD3B /* Pods-RandomTaco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomTaco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco.debug.xcconfig"; sourceTree = "<group>"; };
-		9C8195881DF0B3A00006FA92 /* RandomTaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C81958B1DF0B3A00006FA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C81958D1DF0B3A00006FA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C8195901DF0B3A00006FA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C8195931DF0B3A00006FA92 /* RandomTaco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomTaco.xcdatamodel; sourceTree = "<group>"; };
-		9C8195951DF0B3A00006FA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C8195981DF0B3A00006FA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9C81959A1DF0B3A00006FA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A00D712C5C894D685F6E8D26 /* Pods-RandomTaco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomTaco.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco.release.xcconfig"; sourceTree = "<group>"; };
-		DF569831C78ECA84A76D2E0E /* Pods_RandomTaco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomTaco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		264FF9FBCF5F3CCC4391AEBB /* Pods-RandomTaco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomTaco.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco.release.xcconfig"; sourceTree = "<group>"; };
+		3A6EA4631DF0CA5300F07F2A /* RandomTaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A6EA4681DF0CA5300F07F2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A6EA46B1DF0CA5300F07F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A6EA46D1DF0CA5300F07F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A6EA4701DF0CA5300F07F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A6EA4721DF0CA5300F07F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740F889BA6FAC6F64DC66EF4 /* Pods_RandomTaco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomTaco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EA91FD127D9CE9BB691893 /* Pods-RandomTaco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomTaco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C8195851DF0B3A00006FA92 /* Frameworks */ = {
+		3A6EA4601DF0CA5200F07F2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2230A01E4C88FE4DFEF5021 /* Pods_RandomTaco.framework in Frameworks */,
+				B96672C6A6A38D985F417B66 /* Pods_RandomTaco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		904537EC7A29FB619E159BA1 /* Frameworks */ = {
+		1C9FB03D95C5FD55DE06DEE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF569831C78ECA84A76D2E0E /* Pods_RandomTaco.framework */,
+				75EA91FD127D9CE9BB691893 /* Pods-RandomTaco.debug.xcconfig */,
+				264FF9FBCF5F3CCC4391AEBB /* Pods-RandomTaco.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		9C81957F1DF0B3A00006FA92 = {
+		3A6EA45A1DF0CA5200F07F2A = {
 			isa = PBXGroup;
 			children = (
-				9C81958A1DF0B3A00006FA92 /* RandomTaco */,
-				9C8195891DF0B3A00006FA92 /* Products */,
-				A431D77652EE043EA759B219 /* Pods */,
-				904537EC7A29FB619E159BA1 /* Frameworks */,
+				3A6EA4651DF0CA5300F07F2A /* RandomTaco */,
+				3A6EA4641DF0CA5300F07F2A /* Products */,
+				1C9FB03D95C5FD55DE06DEE3 /* Pods */,
+				C7123DDFAD17AF346ABB1345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9C8195891DF0B3A00006FA92 /* Products */ = {
+		3A6EA4641DF0CA5300F07F2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C8195881DF0B3A00006FA92 /* RandomTaco.app */,
+				3A6EA4631DF0CA5300F07F2A /* RandomTaco.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C81958A1DF0B3A00006FA92 /* RandomTaco */ = {
+		3A6EA4651DF0CA5300F07F2A /* RandomTaco */ = {
 			isa = PBXGroup;
 			children = (
-				9C81958B1DF0B3A00006FA92 /* AppDelegate.swift */,
-				9C81958D1DF0B3A00006FA92 /* ViewController.swift */,
-				9C81958F1DF0B3A00006FA92 /* Main.storyboard */,
-				9C8195951DF0B3A00006FA92 /* Assets.xcassets */,
-				9C8195971DF0B3A00006FA92 /* LaunchScreen.storyboard */,
-				9C81959A1DF0B3A00006FA92 /* Info.plist */,
-				9C8195921DF0B3A00006FA92 /* RandomTaco.xcdatamodeld */,
+				3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */,
+				3A6EA4681DF0CA5300F07F2A /* ViewController.swift */,
+				3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */,
+				3A6EA46D1DF0CA5300F07F2A /* Assets.xcassets */,
+				3A6EA46F1DF0CA5300F07F2A /* LaunchScreen.storyboard */,
+				3A6EA4721DF0CA5300F07F2A /* Info.plist */,
 			);
 			path = RandomTaco;
 			sourceTree = "<group>";
 		};
-		A431D77652EE043EA759B219 /* Pods */ = {
+		C7123DDFAD17AF346ABB1345 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87D10F2BD7831FF1513BFD3B /* Pods-RandomTaco.debug.xcconfig */,
-				A00D712C5C894D685F6E8D26 /* Pods-RandomTaco.release.xcconfig */,
+				740F889BA6FAC6F64DC66EF4 /* Pods_RandomTaco.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C8195871DF0B3A00006FA92 /* RandomTaco */ = {
+		3A6EA4621DF0CA5200F07F2A /* RandomTaco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C81959D1DF0B3A00006FA92 /* Build configuration list for PBXNativeTarget "RandomTaco" */;
+			buildConfigurationList = 3A6EA4751DF0CA5300F07F2A /* Build configuration list for PBXNativeTarget "RandomTaco" */;
 			buildPhases = (
-				C792637CBEFCF88ABA35FE2E /* [CP] Check Pods Manifest.lock */,
-				9C8195841DF0B3A00006FA92 /* Sources */,
-				9C8195851DF0B3A00006FA92 /* Frameworks */,
-				9C8195861DF0B3A00006FA92 /* Resources */,
-				311E284861D036414B47FEA6 /* [CP] Embed Pods Frameworks */,
-				CCFC5165FFFD127E979D9EA9 /* [CP] Copy Pods Resources */,
+				32C0B843922EFE789BA17E5A /* [CP] Check Pods Manifest.lock */,
+				3A6EA45F1DF0CA5200F07F2A /* Sources */,
+				3A6EA4601DF0CA5200F07F2A /* Frameworks */,
+				3A6EA4611DF0CA5200F07F2A /* Resources */,
+				87B8BCBDFD8AB96350D65660 /* [CP] Embed Pods Frameworks */,
+				CFE67679A989F5E9445BD122 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,27 +108,26 @@
 			);
 			name = RandomTaco;
 			productName = RandomTaco;
-			productReference = 9C8195881DF0B3A00006FA92 /* RandomTaco.app */;
+			productReference = 3A6EA4631DF0CA5300F07F2A /* RandomTaco.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9C8195801DF0B3A00006FA92 /* Project object */ = {
+		3A6EA45B1DF0CA5200F07F2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Annie Tung";
+				ORGANIZATIONNAME = "Erica Stevens";
 				TargetAttributes = {
-					9C8195871DF0B3A00006FA92 = {
+					3A6EA4621DF0CA5200F07F2A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9F7X637BX9;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 9C8195831DF0B3A00006FA92 /* Build configuration list for PBXProject "RandomTaco" */;
+			buildConfigurationList = 3A6EA45E1DF0CA5200F07F2A /* Build configuration list for PBXProject "RandomTaco" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,46 +135,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 9C81957F1DF0B3A00006FA92;
-			productRefGroup = 9C8195891DF0B3A00006FA92 /* Products */;
+			mainGroup = 3A6EA45A1DF0CA5200F07F2A;
+			productRefGroup = 3A6EA4641DF0CA5300F07F2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C8195871DF0B3A00006FA92 /* RandomTaco */,
+				3A6EA4621DF0CA5200F07F2A /* RandomTaco */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C8195861DF0B3A00006FA92 /* Resources */ = {
+		3A6EA4611DF0CA5200F07F2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8195991DF0B3A00006FA92 /* LaunchScreen.storyboard in Resources */,
-				9C8195961DF0B3A00006FA92 /* Assets.xcassets in Resources */,
-				9C8195911DF0B3A00006FA92 /* Main.storyboard in Resources */,
+				3A6EA4711DF0CA5300F07F2A /* LaunchScreen.storyboard in Resources */,
+				3A6EA46E1DF0CA5300F07F2A /* Assets.xcassets in Resources */,
+				3A6EA46C1DF0CA5300F07F2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		311E284861D036414B47FEA6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C792637CBEFCF88ABA35FE2E /* [CP] Check Pods Manifest.lock */ = {
+		32C0B843922EFE789BA17E5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,7 +174,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CCFC5165FFFD127E979D9EA9 /* [CP] Copy Pods Resources */ = {
+		87B8BCBDFD8AB96350D65660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE67679A989F5E9445BD122 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,31 +207,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C8195841DF0B3A00006FA92 /* Sources */ = {
+		3A6EA45F1DF0CA5200F07F2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C81958E1DF0B3A00006FA92 /* ViewController.swift in Sources */,
-				9C81958C1DF0B3A00006FA92 /* AppDelegate.swift in Sources */,
-				9C8195941DF0B3A00006FA92 /* RandomTaco.xcdatamodeld in Sources */,
+				3A6EA4691DF0CA5300F07F2A /* ViewController.swift in Sources */,
+				3A6EA4671DF0CA5300F07F2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C81958F1DF0B3A00006FA92 /* Main.storyboard */ = {
+		3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C8195901DF0B3A00006FA92 /* Base */,
+				3A6EA46B1DF0CA5300F07F2A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9C8195971DF0B3A00006FA92 /* LaunchScreen.storyboard */ = {
+		3A6EA46F1DF0CA5300F07F2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C8195981DF0B3A00006FA92 /* Base */,
+				3A6EA4701DF0CA5300F07F2A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -243,7 +238,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9C81959B1DF0B3A00006FA92 /* Debug */ = {
+		3A6EA4731DF0CA5300F07F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		9C81959C1DF0B3A00006FA92 /* Release */ = {
+		3A6EA4741DF0CA5300F07F2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,29 +331,27 @@
 			};
 			name = Release;
 		};
-		9C81959E1DF0B3A00006FA92 /* Debug */ = {
+		3A6EA4761DF0CA5300F07F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87D10F2BD7831FF1513BFD3B /* Pods-RandomTaco.debug.xcconfig */;
+			baseConfigurationReference = 75EA91FD127D9CE9BB691893 /* Pods-RandomTaco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9F7X637BX9;
 				INFOPLIST_FILE = RandomTaco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tung.annie.c4q.RandomTaco;
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.ericastevens.RandomTaco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		9C81959F1DF0B3A00006FA92 /* Release */ = {
+		3A6EA4771DF0CA5300F07F2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A00D712C5C894D685F6E8D26 /* Pods-RandomTaco.release.xcconfig */;
+			baseConfigurationReference = 264FF9FBCF5F3CCC4391AEBB /* Pods-RandomTaco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9F7X637BX9;
 				INFOPLIST_FILE = RandomTaco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tung.annie.c4q.RandomTaco;
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.ericastevens.RandomTaco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -367,37 +360,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C8195831DF0B3A00006FA92 /* Build configuration list for PBXProject "RandomTaco" */ = {
+		3A6EA45E1DF0CA5200F07F2A /* Build configuration list for PBXProject "RandomTaco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C81959B1DF0B3A00006FA92 /* Debug */,
-				9C81959C1DF0B3A00006FA92 /* Release */,
+				3A6EA4731DF0CA5300F07F2A /* Debug */,
+				3A6EA4741DF0CA5300F07F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C81959D1DF0B3A00006FA92 /* Build configuration list for PBXNativeTarget "RandomTaco" */ = {
+		3A6EA4751DF0CA5300F07F2A /* Build configuration list for PBXNativeTarget "RandomTaco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C81959E1DF0B3A00006FA92 /* Debug */,
-				9C81959F1DF0B3A00006FA92 /* Release */,
+				3A6EA4761DF0CA5300F07F2A /* Debug */,
+				3A6EA4771DF0CA5300F07F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9C8195921DF0B3A00006FA92 /* RandomTaco.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9C8195931DF0B3A00006FA92 /* RandomTaco.xcdatamodel */,
-			);
-			currentVersion = 9C8195931DF0B3A00006FA92 /* RandomTaco.xcdatamodel */;
-			path = RandomTaco.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 9C8195801DF0B3A00006FA92 /* Project object */;
+	rootObject = 3A6EA45B1DF0CA5200F07F2A /* Project object */;
 }
