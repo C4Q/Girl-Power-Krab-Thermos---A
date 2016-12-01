@@ -45,7 +45,7 @@ class APIRequestManager {
             if let jsonData = dataResponse.data {
                 let swiftyJSON = JSON(data: jsonData)
                 //Getting a string from a JSON Dictionary
-                let slug = swiftyJSON["shell"]["slug"].stringValue
+                let slug = swiftyJSON["mixin"]["slug"].stringValue
                 print(slug)
             }
         }
