@@ -16,32 +16,13 @@ class APIRequestManager {
     
     func fetchRandomTaco() {
         
-        Alamofire.request("http://taco-randomizer.herokuapp.com/random?full-taco=true").responseJSON { dataResponse in
-            print("Request: \(dataResponse.request)")
-            print("Response: \(dataResponse.response)")
-            print("Data: \(dataResponse.data)")
-            print("Result: \(dataResponse.result)")
+        let url = URL(string:"http://taco-randomizer.herokuapp.com/random?full-taco=true")!
+        Alamofire.request(url).responseJSON { (dataResponse) in
+            if let jsonData = dataResponse.data {
+                 let swiftyJSON = JSON(data: jsonData)
+                    let recipe = swiftyJSON["base_layer"]["recipe"].stringValue
+                    print("SWIFT JSON WORKED: \(recipe)")
             
-            if let json = dataResponse.result.value {
-                print("Json: \(json)") // as the documentation points out, the json response handler makes use of JSONSerialization to parse out objects. meaning that this json is of type Any
-            }
-        }
-        
-        Alamofire.request("http://taco-randomizer.herokuapp.com/random?full-taco=true").validate().responseJSON { dataResponse in
-            print("Request: \(dataResponse.request)")
-            print("Response: \(dataResponse.response)")
-            print("Data: \(dataResponse.data)")
-            print("Result: \(dataResponse.result)")
-            
-            if dataResponse.result.value != nil {
-                if let jsonData = dataResponse.data {
-                    let swiftyJSON = JSON(data: jsonData)
-                    //Getting a string from a JSON Dictionary
-                    let slug = swiftyJSON["shell"]["slug"].stringValue
-                    print("SWIFT JSON WORKED: \(slug)")
-
-                //print("Json: \(json)") // as the documentation points out, the json response handler makes use of JSONSerialization to parse out objects. meaning that this json is of type Any
-                }
             }
         }
     }    
