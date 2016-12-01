@@ -8,5 +8,6 @@ target 'RandomTaco' do
   # Pods for RandomTaco
 pod 'Alamofire', '~> 4.2'
 pod 'SwiftyJSON'
+pod 'PullToMakeSoup', '~> 2.0'
 
 end
