@@ -2,14 +2,15 @@
 //  ViewController.swift
 //  RandomTaco
 //
-//  Created by Erica Y Stevens on 12/1/16.
-//  Copyright © 2016 Erica Stevens. All rights reserved.
+//  Created by Annie Tung on 12/1/16.
+//  Copyright © 2016 Annie Tung. All rights reserved.
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
-
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
