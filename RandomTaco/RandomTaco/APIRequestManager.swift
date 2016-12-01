@@ -47,8 +47,18 @@ class APIRequestManager {
                 //Getting a string from a JSON Dictionary
                 let slug = swiftyJSON["mixin"]["slug"].stringValue
                 print(slug)
+
+            if dataResponse.result.value != nil {
+                if let jsonData = dataResponse.data {
+                    let swiftyJSON = JSON(data: jsonData)
+                    //Getting a string from a JSON Dictionary
+                    let slug = swiftyJSON["shell"]["slug"].stringValue
+                    print("SWIFT JSON WORKED: \(slug)")
+
+                //print("Json: \(json)") // as the documentation points out, the json response handler makes use of JSONSerialization to parse out objects. meaning that this json is of type Any
+                }
             }
         }
-    }
+    }    
 }
 

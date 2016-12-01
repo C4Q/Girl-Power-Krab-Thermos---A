@@ -14,8 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         APIRequestManager.manager.fetchRandomTaco()
+<<<<<<< HEAD
         print("**********")
         APIRequestManager.manager.getData()
+=======
+        
+        //APIRequestManager.manager.getData()
+>>>>>>> 68b050f6160024e2862add2fce8ee065d261669c
         
     }
 
