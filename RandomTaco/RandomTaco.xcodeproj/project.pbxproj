@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4E1F831DF0D69F00575394 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E1F821DF0D69F00575394 /* APIRequestManager.swift */; };
 		3A6EA4671DF0CA5300F07F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */; };
 		3A6EA4691DF0CA5300F07F2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EA4681DF0CA5300F07F2A /* ViewController.swift */; };
 		3A6EA46C1DF0CA5300F07F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		264FF9FBCF5F3CCC4391AEBB /* Pods-RandomTaco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomTaco.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomTaco/Pods-RandomTaco.release.xcconfig"; sourceTree = "<group>"; };
+		3A4E1F821DF0D69F00575394 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 		3A6EA4631DF0CA5300F07F2A /* RandomTaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomTaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6EA4681DF0CA5300F07F2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			children = (
 				3A6EA4661DF0CA5300F07F2A /* AppDelegate.swift */,
 				9CEE4B6E1DF0CE5C00E51DC0 /* Tacos.swift */,
+				3A4E1F821DF0D69F00575394 /* APIRequestManager.swift */,
 				3A6EA4681DF0CA5300F07F2A /* ViewController.swift */,
 				3A6EA46A1DF0CA5300F07F2A /* Main.storyboard */,
 				3A6EA46D1DF0CA5300F07F2A /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4E1F831DF0D69F00575394 /* APIRequestManager.swift in Sources */,
 				3A6EA4691DF0CA5300F07F2A /* ViewController.swift in Sources */,
 				3A6EA4671DF0CA5300F07F2A /* AppDelegate.swift in Sources */,
 				9CEE4B6F1DF0CE5C00E51DC0 /* Tacos.swift in Sources */,
