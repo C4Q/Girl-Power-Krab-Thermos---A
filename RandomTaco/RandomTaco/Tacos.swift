@@ -33,17 +33,5 @@ class Tacos {
         self.mixinName = mixinName
         self.mixinRecipe = mixinRecipe
     }
-    
-//    func getData() {
-//        let endPoint = URL(string: "https://taco-randomizer.herokuapp.com/random/?full-taco=true")!
-//        Alamofire.request(endPoint).responseJSON { (dataResponse) in
-//            if let jsonData = dataResponse.data {
-//                let swiftyJSON = JSON(data: jsonData)
-//                //Getting a string from a JSON Dictionary
-//                let slug = swiftyJSON["shell"]["slug"].stringValue
-//                print(slug)
-//            }
-//        }
-        
-    }
+}
 

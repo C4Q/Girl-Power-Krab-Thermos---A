@@ -12,9 +12,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+<<<<<<< HEAD
+=======
         APIRequestManager.manager.fetchRandomTaco()
         
+>>>>>>> 865ad46763fd59626800ecbed668c6e3accdded4
     }
 
 
